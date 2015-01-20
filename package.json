@@ -1,0 +1,39 @@
+{
+  "name": "atcompileify",
+  "version": "1.0.0",
+  "description": "browserify macro for running code at compile time",
+  "main": "index.js",
+  "bin": {
+    "atcompileify": "bin/cmd.js"
+  },
+  "dependencies": {
+    "quote-stream": "~0.0.0",
+    "static-module": "^1.0.0",
+    "through2": "~0.4.1"
+  },
+  "devDependencies": {
+    "browserify": "^4.2.0",
+    "concat-stream": "^1.4.5",
+    "tap": "~0.4.8",
+    "through": "^2.3.4"
+  },
+  "scripts": {
+    "test": "tap test/{ag,async}.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brigand/atcompileify.git"
+  },
+  "homepage": "https://github.com/brigand/atcompileify",
+  "keywords": [
+    "browserify",
+    "browserify-transform",
+    "fs",
+    "readFileSync",
+    "plugin",
+    "static",
+    "asset",
+    "bundle"
+  ],
+  "license": "MIT"
+}
